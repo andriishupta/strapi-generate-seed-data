@@ -1,0 +1,31 @@
+{
+  "name": "strapi-generate-seed-data",
+  "private": true,
+  "version": "0.1.0",
+  "description": "A Strapi application",
+  "scripts": {
+    "develop": "strapi develop",
+    "start": "strapi start",
+    "build": "strapi build",
+    "strapi": "strapi",
+    "seed": "FORCE_APP_BOOTSTRAP_ONLY=true strapi start",
+  },
+  "devDependencies": {},
+  "dependencies": {
+    "@strapi/strapi": "4.3.2",
+    "@strapi/plugin-users-permissions": "4.3.2",
+    "@strapi/plugin-i18n": "4.3.2",
+    "better-sqlite3": "7.4.6"
+  },
+  "author": {
+    "name": "A Strapi developer"
+  },
+  "strapi": {
+    "uuid": "1ec39e4a-fa2c-4f12-9c36-3a51a8cf7a38"
+  },
+  "engines": {
+    "node": ">=12.x.x <=16.x.x",
+    "npm": ">=6.0.0"
+  },
+  "license": "MIT"
+}

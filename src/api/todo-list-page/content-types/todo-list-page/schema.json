@@ -1,0 +1,29 @@
+{
+  "kind": "singleType",
+  "collectionName": "todo_list_pages",
+  "info": {
+    "singularName": "todo-list-page",
+    "pluralName": "todo-list-pages",
+    "displayName": "Todo List Page",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "todos": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::todo.todo"
+    },
+    "other_links": {
+      "type": "component",
+      "repeatable": true,
+      "component": "general.link"
+    }
+  }
+}
