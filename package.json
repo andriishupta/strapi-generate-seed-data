@@ -8,13 +8,15 @@
     "start": "strapi start",
     "build": "strapi build",
     "strapi": "strapi",
-    "seed": "FORCE_APP_BOOTSTRAP_ONLY=true strapi start",
+    "seed": "FORCE_APP_BOOTSTRAP_ONLY=true strapi start"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "@faker-js/faker": "^7.3.0"
+  },
   "dependencies": {
-    "@strapi/strapi": "4.3.2",
-    "@strapi/plugin-users-permissions": "4.3.2",
     "@strapi/plugin-i18n": "4.3.2",
+    "@strapi/plugin-users-permissions": "4.3.2",
+    "@strapi/strapi": "4.3.2",
     "better-sqlite3": "7.4.6"
   },
   "author": {
