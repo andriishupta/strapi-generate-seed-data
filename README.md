@@ -2,6 +2,11 @@
 This is an example repository that has the example of how to seed your CMS
 with initial data for development purposes.
 
+To seed data:
+- follow Strapi's "getting started"
+- data would be automatically generated
+- run `yarn seed` to regenerate
+
 # 🚀 Getting started with Strapi
 
 Strapi comes with a full featured [Command Line Interface](https://docs.strapi.io/developer-docs/latest/developer-resources/cli/CLI.html) (CLI) which lets you scaffold and manage your project in seconds.
